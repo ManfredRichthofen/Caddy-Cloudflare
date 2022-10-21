@@ -1,6 +1,6 @@
 # Caddy 2 with Cloudflare
 
-![Docker Cloud Build Status](https://img.shields.io/github/workflow/status/ManfredRichthofen/caddy2-cloudflare/Docker)
+![Docker Cloud Build Status](https://img.shields.io/github/workflow/status/ManfredRichthofen/caddy-cloudflare/Docker)
 
 Prebuilt Caddy v2 docker image with Cloudflare module [caddy-dns/cloudflare](https://github.com/caddy-dns/cloudflare). 
 
@@ -9,7 +9,7 @@ version: "3.7"
 
 services:
   caddy:
-    image: ghcr.io/manfredrichthofen/caddy2-cloudflare:main
+    image: ghcr.io/manfredrichthofen/caddy-cloudflare:main
     restart: unless-stopped
     ports:
       - "80:80"
