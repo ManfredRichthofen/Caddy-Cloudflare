@@ -1,6 +1,6 @@
 # Caddy 2 with Cloudflare
 
-![Docker Cloud Build Status](https://img.shields.io/github/workflow/status/ManfredRichthofen/caddy-cloudflare/Docker V2)
+![Docker Cloud Build Status](https://img.shields.io/github/workflow/status/ManfredRichthofen/caddy-cloudflare/Docker%20V2)
 
 Prebuilt Caddy v2 docker image with Cloudflare module [caddy-dns/cloudflare](https://github.com/caddy-dns/cloudflare). 
 
