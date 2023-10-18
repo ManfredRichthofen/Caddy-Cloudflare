@@ -1,7 +1,8 @@
 FROM caddy:builder AS builder
 
 RUN xcaddy build \
-    --with github.com/caddy-dns/cloudflare
+    --with github.com/caddy-dns/cloudflare \
+    --with github.com/greenpau/caddy-security@latest 
 
 FROM caddy:latest
 
