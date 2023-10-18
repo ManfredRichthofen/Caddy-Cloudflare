@@ -1,4 +1,4 @@
-# Caddy 2.7.X with Cloudflare
+# Caddy 2.7.X with Cloudflare and Caddy Security
 
 ![Docker Cloud Build Status](https://img.shields.io/github/actions/workflow/status/ManfredRichthofen/caddy-cloudflare/docker-publish.yml)
 
